@@ -5,26 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   
 
 <!-- SEO Meta Tags -->
-<title>Pacific Palms Nursery | Phoenix Palm Nursery, Slideshow Gallery &amp; Care Guide</title>
-<meta name="description" content="Rebuilt Pacific Palms Nursery website featuring a full-screen autoplay image gallery, scroll-triggered animations, featured palm species, care tips, testimonials, location details, and contact form." />
-<meta property="og:title" content="Pacific Palms Nursery | Phoenix Palm Nursery, Slideshow Gallery &amp; Care Guide" />
-<meta property="og:description" content="Rebuilt Pacific Palms Nursery website featuring a full-screen autoplay image gallery, scroll-triggered animations, featured palm species, care tips, testimonials, location details, and contact form." />
+<title>Pacific Palms Nursery Phoenix AZ | Wholesale Palm Trees Open to the Public</title>
+<meta name="description" content="Luxury botanical website for Pacific Palms Nursery in Phoenix, AZ featuring wholesale palm trees, palm care guidance, species list, testimonials, gallery, hours, and contact form." />
+<meta property="og:title" content="Pacific Palms Nursery Phoenix AZ | Wholesale Palm Trees Open to the Public" />
+<meta property="og:description" content="Luxury botanical website for Pacific Palms Nursery in Phoenix, AZ featuring wholesale palm trees, palm care guidance, species list, testimonials, gallery, hours, and contact form." />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Pacific Palms Nursery | Phoenix Palm Nursery, Slideshow Gallery &amp; Care Guide" />
-<meta name="twitter:description" content="Rebuilt Pacific Palms Nursery website featuring a full-screen autoplay image gallery, scroll-triggered animations, featured palm species, care tips, testimonials, location details, and contact form." />
+<meta name="twitter:title" content="Pacific Palms Nursery Phoenix AZ | Wholesale Palm Trees Open to the Public" />
+<meta name="twitter:description" content="Luxury botanical website for Pacific Palms Nursery in Phoenix, AZ featuring wholesale palm trees, palm care guidance, species list, testimonials, gallery, hours, and contact form." />
 <!-- End SEO Meta Tags -->
 
 <script data-gate>
 (function(){
-  var slug='t5FB44wZk';var apiBase='https://paymegpt.com';var currency='USD';var presets=[2500,5000,10000,25000];var minAmt=100;var maxAmt=1000000;var thankYouMsg='Thank you for your generous donation!';
+  var slug='9AjmzqXruH';var apiBase='https://paymegpt.com';var currency='USD';var presets=[2500,5000,10000,25000];var minAmt=100;var maxAmt=1000000;var thankYouMsg='Thank you for your generous donation!';
   function fmtD(c){return new Intl.NumberFormat('en-US',{style:'currency',currency:currency}).format(c/100);}
   window.__processDonation=function(amountCents,email,donorName,donorMessage){
     if(!amountCents||amountCents<minAmt){alert('Minimum donation is '+fmtD(minAmt));return Promise.reject('below_min');}
@@ -150,7 +150,7 @@
   function run(){
     if(contactId){
       var xhr=new XMLHttpRequest();
-      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=2582');
+      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=2585');
       xhr.onload=function(){
         if(xhr.status===200){
           try{
@@ -177,7 +177,7 @@
 </script>
 <script data-payment>
 (function(){
-  var slug='t5FB44wZk';
+  var slug='9AjmzqXruH';
   var apiBase='https://paymegpt.com';
   function findEmail(){
     var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
@@ -232,248 +232,339 @@
 </head>
 <body class="antialiased">
   <!-- ============================================================================ -->
-  <!-- NAVIGATION: Sticky glass-morphism header with logo, links, and phone        -->
-  <!-- Mobile Padding: px-4 ensures content never touches viewport edges           -->
+  <!-- HEADER / NAVIGATION: Sticky glass-morphism navbar with logo, links, phone   -->
+  <!-- Mobile Padding: p-4 on all screens with safe spacing for all text           -->
   <!-- ============================================================================ -->
-  <header class="fixed top-0 inset-x-0 z-50 glass bg-[#1a3a2a]/75 border-b border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
-      <div class="flex items-center justify-between h-20">
-        <a href="#home" class="flex items-center gap-3 text-white" aria-label="Pacific Palms Nursery home">
-          <svg width="42" height="42" viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <path d="M32 58c0-12 0-20 0-30" stroke="#c9a84c" stroke-width="4" stroke-linecap="round"/>
-            <path d="M31 20c-9-1-16-8-17-16 9 1 15 6 18 15" fill="#c9a84c"/>
-            <path d="M33 20c9-1 16-8 17-16-9 1-15 6-18 15" fill="#c9a84c"/>
-            <path d="M30 24c-10-1-18-7-22-15 11 0 19 4 24 12" fill="#c9a84c"/>
-            <path d="M34 24c10-1 18-7 22-15-11 0-19 4-24 12" fill="#c9a84c"/>
-          </svg>
-          <div>
-            <div class="font-display text-lg tracking-[.22em] text-white">PACIFIC PALMS</div>
-            <div class="text-[10px] tracking-[.38em] text-[#c9a84c] -mt-0.5">NURSERY</div>
-          </div>
-        </a>
-        <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-white/90">
-          <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#care">Palm Care</a>
-          <a class="nav-link" href="#species">Species</a>
-          <a class="nav-link" href="#contact">Contact</a>
-          <a class="text-[#c9a84c] hover:text-white transition" href="tel:6235806933">623-580-6933</a>
-        </nav>
-        <button id="nav-menu-toggle" class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl border border-white/15 text-white" aria-label="Open menu">☰</button>
+  <header class="sticky top-0 z-50 glass-nav border-b border-white/10">
+    <nav class="max-w-7xl mx-auto px-4 py-4 md:px-6 lg:px-8 flex items-center justify-between gap-4" aria-label="Primary">
+      <a href="#home" class="flex items-center gap-3 text-white" data-section="nav-logo">
+        <svg width="42" height="42" viewBox="0 0 42 42" aria-hidden="true" class="shrink-0">
+          <path d="M21 4c2 6-1 11-6 15 4-1 8-4 11-8 1 6-1 11-5 15 5-1 10-4 14-9-1 8-5 14-12 18-3 2-7 3-12 3 4-3 7-7 9-12-6 2-11 2-16 1 6-2 10-6 13-11-5 2-9 2-13 1 5-2 9-5 12-8 1-1 2-3 5-5Z" fill="#c9a84c"/>
+          <rect x="19" y="18" width="4" height="19" rx="2" fill="#c9a84c"/>
+        </svg>
+        <span class="leading-none">
+          <span class="block brand-serif text-lg tracking-[0.2em] uppercase">Pacific Palms</span>
+          <span class="block text-[11px] tracking-[0.35em] uppercase text-white/85">Nursery</span>
+        </span>
+      </a>
+
+      <button id="menuBtn" class="nav-menu-toggle md:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-white/20 text-white" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle menu">
+        <span class="sr-only">Menu</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-bold text-white/90">
+        <a class="nav-link hover:text-[var(--gold)] transition" href="#home" data-route="home">Home</a>
+        <a class="nav-link hover:text-[var(--gold)] transition" href="#care" data-route="care">Palm Care</a>
+        <a class="nav-link hover:text-[var(--gold)] transition" href="#species" data-route="species">Species</a>
+        <a class="nav-link hover:text-[var(--gold)] transition" href="#contact" data-route="contact">Contact</a>
       </div>
-      <div id="mobile-menu" class="md:hidden hidden pb-4">
-        <div class="flex flex-col gap-3 text-white/95 font-bold">
-          <a href="#home" class="py-2">Home</a>
-          <a href="#care" class="py-2">Palm Care</a>
-          <a href="#species" class="py-2">Species</a>
-          <a href="#contact" class="py-2">Contact</a>
-          <a href="tel:6235806933" class="py-2 text-[#c9a84c]">Call 623-580-6933</a>
-        </div>
+
+      <a href="tel:6235806933" class="hidden md:inline-flex items-center gap-2 text-white font-bold hover:text-[var(--gold)] transition">
+        <span class="w-2.5 h-2.5 rounded-full bg-[var(--gold)]"></span> 623-580-6933
+      </a>
+    </nav>
+
+    <div id="mobileMenu" class="md:hidden hidden px-4 pb-4">
+      <div class="rounded-2xl border border-white/10 bg-black/15 p-4 text-white flex flex-col gap-3">
+        <a href="#home" class="nav-link py-2" data-route="home">Home</a>
+        <a href="#care" class="nav-link py-2" data-route="care">Palm Care</a>
+        <a href="#species" class="nav-link py-2" data-route="species">Species</a>
+        <a href="#contact" class="nav-link py-2" data-route="contact">Contact</a>
+        <a href="tel:6235806933" class="mt-2 inline-flex justify-center rounded-full bg-[var(--gold)] px-4 py-3 font-bold text-[var(--forest)]">Call 623-580-6933</a>
       </div>
     </div>
   </header>
 
-  <main class="pt-20">
+  <main>
     <!-- ============================================================================ -->
-    <!-- HERO SECTION: Full-screen autoplay slideshow with premium overlay          -->
+    <!-- HOME PAGE VIEW: Hero slideshow, about, gallery, species preview, testimonials -->
+    <!-- Mobile Padding: Every content container starts with px-4 py-6 or more        -->
     <!-- ============================================================================ -->
-    <section id="home" data-section="hero" class="relative min-h-screen overflow-hidden">
-      <div id="hero-slides" class="absolute inset-0">
-        <div class="slide active" style="background-image:url('https://pacificpalms.com/AZQueens15gal.7.1.03.JPG')"></div>
-        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200')"></div>
-        <div class="slide" style="background-image:url('https://pacificpalms.com/FlaQueens15g.7.1.03.JPG')"></div>
-        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200')"></div>
-        <div class="slide" style="background-image:url('https://pacificpalms.com/Queen25gReg.7.1.03.JPG')"></div>
-        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200')"></div>
-      </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-[#0c2018]/55 via-[#1a3a2a]/45 to-[#0c2018]/80"></div>
-      <div class="relative z-10 min-h-screen flex items-center">
-        <div class="max-w-7xl mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-12 py-16">
-          <div class="max-w-4xl text-white section-reveal">
-            <p class="uppercase tracking-[.45em] text-[#c9a84c] font-bold mb-4">Phoenix, Arizona</p>
-            <h1 class="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-[.95] text-shadow">Phoenix&apos;s Premier Palm Nursery</h1>
-            <p class="mt-6 text-lg sm:text-xl lg:text-2xl text-[#e7d8ad] max-w-2xl">Wholesale Pricing. Retail Quality. Open to the Public.</p>
-            <div class="mt-8 flex flex-col sm:flex-row gap-4">
-              <a href="#species" class="cta-primary inline-flex items-center justify-center rounded-full bg-[#c9a84c] px-7 py-4 font-bold text-[#1a3a2a] hover:bg-white transition gold-glow">Explore Our Species</a>
-              <a href="tel:6235806933" class="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/10 px-7 py-4 font-bold text-white hover:bg-white/15 transition">Call 623-580-6933</a>
+    <section id="home" data-section="home" class="page-view">
+      <!-- HERO SECTION -->
+      <section class="relative min-h-[100svh] overflow-hidden bg-[var(--forest)]">
+        <div id="heroSlideshow" class="absolute inset-0">
+          <div class="slide active absolute inset-0 bg-cover bg-center" style="background-image:linear-gradient(rgba(10,30,20,.5), rgba(10,30,20,.65)),url('https://drive.google.com/uc?export=view&id=1wG-8Uz9T8UrEn5Hx_aTagw7rrXKgnwHh')"></div>
+          <div class="slide absolute inset-0 bg-cover bg-center" style="background-image:linear-gradient(rgba(10,30,20,.5), rgba(10,30,20,.65)),url('https://drive.google.com/uc?export=view&id=1n9Ub0-odwjS2pBOHPTw1j1GvWH1rkf5F')"></div>
+          <div class="slide absolute inset-0 bg-cover bg-center" style="background-image:linear-gradient(rgba(10,30,20,.5), rgba(10,30,20,.65)),url('https://drive.google.com/uc?export=view&id=1I_GrKf5oYjK15FT6bzaYZt5nWse1e9GZ')"></div>
+          <div class="slide absolute inset-0 bg-cover bg-center" style="background-image:linear-gradient(rgba(10,30,20,.5), rgba(10,30,20,.65)),url('https://drive.google.com/uc?export=view&id=1wC90RjuXdSXAwMX_oDepmQLOqiLSV3XQ')"></div>
+          <div class="slide absolute inset-0 bg-cover bg-center" style="background-image:linear-gradient(rgba(10,30,20,.5), rgba(10,30,20,.65)),url('https://drive.google.com/uc?export=view&id=1j3zVhzwwxwhqJuT-X43uVa-GpSDVUlYL')"></div>
+        </div>
+
+        <div class="relative z-10 min-h-[100svh] flex items-center">
+          <div class="w-full max-w-6xl mx-auto px-4 py-12 md:px-6 lg:px-8">
+            <div class="hero-text-in max-w-4xl text-center mx-auto text-white">
+              <p class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs md:text-sm tracking-[0.3em] uppercase mb-6">Luxury Botanical Nursery · Phoenix, AZ</p>
+              <h1 class="brand-serif text-4xl sm:text-5xl md:text-6xl lg:text-[68px] leading-[1.05] font-semibold">Phoenix's Premier Palm Nursery</h1>
+              <p class="mt-5 text-lg sm:text-xl md:text-[22px] text-[var(--gold)]">Wholesale Pricing. Retail Quality. Open to the Public.</p>
+              <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#species" class="cta-primary rounded-full bg-[var(--gold)] px-7 py-4 font-extrabold text-[var(--forest)] shadow-lg shadow-black/20 hover:scale-[1.02] transition">Explore Our Species</a>
+                <a href="tel:6235806933" class="rounded-full border-2 border-white px-7 py-4 font-extrabold text-white hover:bg-white hover:text-[var(--forest)] transition">Call 623-580-6933</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <button id="hero-prev" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/10 text-white border border-white/20">‹</button>
-      <button id="hero-next" class="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/10 text-white border border-white/20">›</button>
-      <div id="hero-dots" class="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2"></div>
-    </section>
 
-    <div class="wave bg-transparent">
-      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path fill="#f7f5ef" d="M0,32L80,37.3C160,43,320,53,480,48C640,43,800,21,960,16C1120,11,1280,21,1360,26.7L1440,32V80H0Z"/></svg>
-    </div>
+        <button id="prevSlide" class="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/30 border border-white/20 text-white" aria-label="Previous slide">‹</button>
+        <button id="nextSlide" class="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/30 border border-white/20 text-white" aria-label="Next slide">›</button>
+        <div id="dots" class="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2"></div>
+      </section>
 
-    <!-- ============================================================================ -->
-    <!-- ABOUT SECTION: Mission, badges, and feature cards with scroll animation    -->
-    <!-- ============================================================================ -->
-    <section id="about" data-section="about" class="section-reveal">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
+      <!-- ABOUT SECTION -->
+      <section class="section-hidden px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto" data-section="about">
         <div class="grid lg:grid-cols-2 gap-10 items-center">
           <div>
-            <span class="inline-flex items-center rounded-full bg-[#c9a84c]/15 text-[#1a3a2a] px-4 py-2 font-bold mb-4">Se Habla Español</span>
-            <h2 class="font-display text-4xl sm:text-5xl text-[#1a3a2a]">Rooted in Quality, Grown with Passion</h2>
-            <p class="mt-5 text-lg text-gray-700 leading-8">Pacific Palms Nursery is home to some of the biggest, healthiest palms in the Phoenix area, alongside beautiful cycads, agaves, aloes, and cactus. We serve homeowners, landscapers, and designers who want premium plant material with honest guidance and dependable service.</p>
+            <span class="inline-flex items-center rounded-full bg-[var(--gold)] px-4 py-2 text-xs font-black uppercase tracking-[0.25em] text-[var(--forest)]">Se Habla Español</span>
+            <h2 class="mt-5 brand-serif text-3xl md:text-5xl text-[var(--forest)]">Rooted in Quality, Grown with Passion</h2>
+            <p class="mt-5 text-base md:text-lg leading-8 text-slate-700">Pacific Palms Nursery is Phoenix's trusted source for the biggest, healthiest palms, cycads, agaves, aloes, and cactus. We pair wholesale values with refined service for homeowners, designers, landscapers, and professional crews who want exceptional plants at the best prices.</p>
+            <p class="mt-4 text-base md:text-lg leading-8 text-slate-700">Our team helps you choose the right specimen for your soil, sun exposure, and design goals — from elegant statement palms to rugged desert accents. Whether you're refreshing a courtyard or completing a large-scale landscape, we bring expertise, inventory, and care.</p>
+            <div class="mt-6 inline-flex items-center gap-3 rounded-2xl border border-[var(--gold)]/35 bg-white px-5 py-4 shadow-sm">
+              <span class="w-3 h-3 rounded-full bg-[var(--gold)]"></span>
+              <strong class="text-[var(--forest)]">Wholesale Open to the Public</strong>
+            </div>
           </div>
           <div class="grid sm:grid-cols-3 gap-4">
-            <div class="reveal-item rounded-3xl bg-white p-6 shadow-lg border border-black/5 gold-glow">🌴<h3 class="mt-3 font-display text-2xl text-[#1a3a2a]">Biggest Selection</h3><p class="mt-2 text-sm text-gray-600">Signature palms and desert-adapted favorites.</p></div>
-            <div class="reveal-item rounded-3xl bg-white p-6 shadow-lg border border-black/5 gold-glow">💰<h3 class="mt-3 font-display text-2xl text-[#1a3a2a]">Wholesale Prices</h3><p class="mt-2 text-sm text-gray-600">Premium quality without premium pretension.</p></div>
-            <div class="reveal-item rounded-3xl bg-white p-6 shadow-lg border border-black/5 gold-glow">👨‍🌾<h3 class="mt-3 font-display text-2xl text-[#1a3a2a]">Expert Guidance</h3><p class="mt-2 text-sm text-gray-600">Select the right palm for your light, soil, and space.</p></div>
+            <article class="card-hover gold-glow rounded-2xl bg-white p-6 border border-black/5 transition section-hidden" data-delay="0.1">
+              <div class="text-3xl">🌴</div><h3 class="mt-3 brand-serif text-2xl text-[var(--forest)]">Biggest Selection</h3><p class="mt-2 text-slate-600">Healthy palms, cycads, succulents, and specimen material selected for premium landscapes.</p>
+            </article>
+            <article class="card-hover gold-glow rounded-2xl bg-white p-6 border border-black/5 transition section-hidden" data-delay="0.2">
+              <div class="text-3xl">💰</div><h3 class="mt-3 brand-serif text-2xl text-[var(--forest)]">Wholesale Prices</h3><p class="mt-2 text-slate-600">Luxury inventory without luxury markups — value that supports residential and commercial projects.</p>
+            </article>
+            <article class="card-hover gold-glow rounded-2xl bg-white p-6 border border-black/5 transition section-hidden" data-delay="0.3">
+              <div class="text-3xl">👨‍🌾</div><h3 class="mt-3 brand-serif text-2xl text-[var(--forest)]">Expert Guidance</h3><p class="mt-2 text-slate-600">Professional recommendations on placement, planting, watering, and long-term palm care.</p>
+            </article>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="wave"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path fill="#fff" d="M0,48L80,42.7C160,37,320,27,480,26.7C640,27,800,37,960,37.3C1120,37,1280,27,1360,21.3L1440,16V80H0Z"/></svg></div>
+      <!-- GALLERY SECTION -->
+      <section class="section-hidden px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto" data-section="gallery">
+        <h2 class="text-center brand-serif text-3xl md:text-5xl text-[var(--forest)]">Our Nursery</h2>
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <button class="gallery-item group relative overflow-hidden rounded-xl" data-index="0"><img class="w-full h-[280px] object-cover transition duration-300 group-hover:scale-[1.03] border border-transparent group-hover:border-[3px] group-hover:border-[var(--gold)]" src="https://drive.google.com/uc?export=view&id=1wG-8Uz9T8UrEn5Hx_aTagw7rrXKgnwHh" alt="Pacific Palms Nursery image 1"><span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white translate-y-4 group-hover:translate-y-0 transition">Healthy, field-grown palms in a pristine nursery setting.</span></button>
+          <button class="gallery-item group relative overflow-hidden rounded-xl" data-index="1"><img class="w-full h-[280px] object-cover transition duration-300 group-hover:scale-[1.03] border border-transparent group-hover:border-[3px] group-hover:border-[var(--gold)]" src="https://drive.google.com/uc?export=view&id=1n9Ub0-odwjS2pBOHPTw1j1GvWH1rkf5F" alt="Pacific Palms Nursery image 2"><span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white translate-y-4 group-hover:translate-y-0 transition">Rows of premium palms ready for landscape projects.</span></button>
+          <button class="gallery-item group relative overflow-hidden rounded-xl" data-index="2"><img class="w-full h-[280px] object-cover transition duration-300 group-hover:scale-[1.03] border border-transparent group-hover:border-[3px] group-hover:border-[var(--gold)]" src="https://drive.google.com/uc?export=view&id=1I_GrKf5oYjK15FT6bzaYZt5nWse1e9GZ" alt="Pacific Palms Nursery image 3"><span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white translate-y-4 group-hover:translate-y-0 transition">A refined wholesale yard with exceptional plant care.</span></button>
+          <button class="gallery-item group relative overflow-hidden rounded-xl" data-index="3"><img class="w-full h-[280px] object-cover transition duration-300 group-hover:scale-[1.03] border border-transparent group-hover:border-[3px] group-hover:border-[var(--gold)]" src="https://drive.google.com/uc?export=view&id=1wC90RjuXdSXAwMX_oDepmQLOqiLSV3XQ" alt="Pacific Palms Nursery image 4"><span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white translate-y-4 group-hover:translate-y-0 transition">Elegant nursery pathways and curated inventory.</span></button>
+          <button class="gallery-item group relative overflow-hidden rounded-xl" data-index="4"><img class="w-full h-[280px] object-cover transition duration-300 group-hover:scale-[1.03] border border-transparent group-hover:border-[3px] group-hover:border-[var(--gold)]" src="https://drive.google.com/uc?export=view&id=1j3zVhzwwxwhqJuT-X43uVa-GpSDVUlYL" alt="Pacific Palms Nursery image 5"><span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white translate-y-4 group-hover:translate-y-0 transition">Signature specimens for luxury desert and tropical landscapes.</span></button>
+        </div>
+      </section>
 
-    <!-- ============================================================================ -->
-    <!-- GALLERY SECTION: Masonry photo grid with lightbox and staggered reveal     -->
-    <!-- ============================================================================ -->
-    <section id="gallery" data-section="gallery" class="section-reveal bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
-        <h2 class="font-display text-4xl sm:text-5xl text-[#1a3a2a]">See Our Nursery</h2>
-        <p class="mt-4 max-w-2xl text-gray-700">Real nursery photography and supplemental tropical imagery showcasing the textures, colors, and scale that make Pacific Palms a standout destination.</p>
-        <div class="mt-10 columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5">
-          <figure class="gallery-item break-inside-avoid rounded-3xl overflow-hidden bg-[#f7f5ef] border border-black/5 cursor-pointer gold-glow" data-full="https://pacificpalms.com/AZQueens15gal.7.1.03.JPG"><img class="w-full h-auto" src="https://pacificpalms.com/AZQueens15gal.7.1.03.JPG" alt="Queen Palm 15 gallon"><figcaption class="p-4 font-bold text-[#1a3a2a] bg-white/95">Queen Palm — 15 Gal</figcaption></figure>
-          <figure class="gallery-item break-inside-avoid rounded-3xl overflow-hidden bg-[#f7f5ef] border border-black/5 cursor-pointer gold-glow" data-full="https://pacificpalms.com/FlaQueens15g.7.1.03.JPG"><img class="w-full h-auto" src="https://pacificpalms.com/FlaQueens15g.7.1.03.JPG" alt="Florida Queen Palms"><figcaption class="p-4 font-bold text-[#1a3a2a] bg-white/95">Florida Queen Palms</figcaption></figure>
-          <figure class="gallery-item break-inside-avoid rounded-3xl overflow-hidden bg-[#f7f5ef] border border-black/5 cursor-pointer gold-glow" data-full="https://pacificpalms.com/Queen25gReg.7.1.03.JPG"><img class="w-full h-auto" src="https://pacificpalms.com/Queen25gReg.7.1.03.JPG" alt="25 gallon Queen Palms"><figcaption class="p-4 font-bold text-[#1a3a2a] bg-white/95">25 Gal Queen Palms</figcaption></figure>
-          <figure class="gallery-item break-inside-avoid rounded-3xl overflow-hidden bg-[#f7f5ef] border border-black/5 cursor-pointer gold-glow" data-full="https://pacificpalms.com/25_G_Queen.JPG"><img class="w-full h-auto" src="https://pacificpalms.com/25_G_Queen.JPG" alt="Large specimen Queens"><figcaption class="p-4 font-bold text-[#1a3a2a] bg-white/95">Large Specimen Queens</figcaption></figure>
-          <figure class="gallery-item break-inside-avoid rounded-3xl overflow-hidden bg-[#f7f5ef] border border-black/5 cursor-pointer gold-glow" data-full="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200"><img class="w-full h-auto" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200" alt="Palm sunset"><figcaption class="p-4 font-bold text-[#1a3a2a] bg-white/95">Tropical Palms</figcaption></figure>
-          <figure class="gallery-item break-inside-avoid rounded-3xl overflow-hidden bg-[#f7f5ef] border border-black/5 cursor-pointer gold-glow" data-full="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800"><img class="w-full h-auto" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800" alt="Palm close up"><figcaption class="p-4 font-bold text-[#1a3a2a] bg-white/95">Desert Collection</figcaption></figure>
+      <!-- FEATURED SPECIES PREVIEW -->
+      <section id="species-preview" class="section-hidden px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto" data-section="species-preview">
+        <div class="flex items-end justify-between gap-4 flex-col sm:flex-row">
+          <h2 class="brand-serif text-3xl md:text-5xl text-[var(--forest)]">Our Signature Species</h2>
+          <a href="#species" class="font-bold text-[var(--forest)] hover:text-[var(--gold)]">View Full Species List →</a>
         </div>
-      </div>
-    </section>
+        <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <article class="species-feature card-hover rounded-2xl bg-white p-6 border border-black/5 transition section-hidden"><h3 class="brand-serif text-2xl text-[var(--forest)]">Queen Palm</h3><p class="italic text-sm text-slate-500">Syagrus romanzoffiana</p><p class="mt-3 text-slate-700">Fast-growing tropical favorite for shade and screening.</p></article>
+          <article class="species-feature card-hover rounded-2xl bg-white p-6 border border-black/5 transition section-hidden"><h3 class="brand-serif text-2xl text-[var(--forest)]">Pygmy Date Palm</h3><p class="italic text-sm text-slate-500">Phoenix roebelenii</p><p class="mt-3 text-slate-700">Elegant small accent palm for any landscape.</p></article>
+          <article class="species-feature card-hover rounded-2xl bg-white p-6 border border-black/5 transition section-hidden"><h3 class="brand-serif text-2xl text-[var(--forest)]">Bismarck Palm</h3><p class="italic text-sm text-slate-500">Bismarckia nobilis</p><p class="mt-3 text-slate-700">Dramatic silver-blue fan palm with bold presence.</p></article>
+          <article class="species-feature card-hover rounded-2xl bg-white p-6 border border-black/5 transition section-hidden"><h3 class="brand-serif text-2xl text-[var(--forest)]">Mediterranean Fan Palm</h3><p class="italic text-sm text-slate-500">Chamaerops humilis</p><p class="mt-3 text-slate-700">Cold-hardy, slow-growing, multi-trunk fan palm.</p></article>
+          <article class="species-feature card-hover rounded-2xl bg-white p-6 border border-black/5 transition section-hidden"><h3 class="brand-serif text-2xl text-[var(--forest)]">Foxtail Palm</h3><p class="italic text-sm text-slate-500">Wodyetia bifurcata</p><p class="mt-3 text-slate-700">Lush tropical crown jewel with lush fronds.</p></article>
+          <article class="species-feature card-hover rounded-2xl bg-white p-6 border border-black/5 transition section-hidden"><h3 class="brand-serif text-2xl text-[var(--forest)]">Pineapple Palm</h3><p class="italic text-sm text-slate-500">Phoenix canariensis</p><p class="mt-3 text-slate-700">Iconic wide-spreading specimen tree.</p></article>
+        </div>
+      </section>
 
-    <!-- ============================================================================ -->
-    <!-- SPECIES SECTION: Signature species cards and scroll animations             -->
-    <!-- ============================================================================ -->
-    <section id="species" data-section="species" class="section-reveal bg-[#f7f5ef]">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
-        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
-          <div>
-            <h2 class="font-display text-4xl sm:text-5xl text-[#1a3a2a]">Our Signature Species</h2>
-            <p class="mt-3 text-gray-700 max-w-2xl">Browse a curated selection of palms with the form, texture, and presence that define a luxury landscape.</p>
-          </div>
-          <p class="text-[#1a3a2a] font-bold">Call to confirm availability: 623-580-6933</p>
+      <!-- CARE PREVIEW -->
+      <section class="section-hidden px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto" data-section="care-preview">
+        <div class="flex items-end justify-between gap-4 flex-col sm:flex-row">
+          <h2 class="brand-serif text-3xl md:text-5xl text-[var(--forest)]">Palm Care Preview</h2>
+          <a href="#care" class="font-bold text-[var(--forest)] hover:text-[var(--gold)]">Read Full Care Guide →</a>
         </div>
-        <div class="mt-8 flex flex-wrap gap-3">
-          <button class="species-filter px-4 py-2 rounded-full bg-[#1a3a2a] text-white" data-filter="all">All</button>
-          <button class="species-filter px-4 py-2 rounded-full bg-white border border-black/10" data-filter="palms">Palms</button>
-          <button class="species-filter px-4 py-2 rounded-full bg-white border border-black/10" data-filter="cycads">Cycads</button>
+        <div class="mt-10 grid md:grid-cols-3 gap-5">
+          <article class="card-hover rounded-2xl bg-white p-6 border border-black/5"><div class="text-4xl">🪴</div><h3 class="mt-3 brand-serif text-2xl text-[var(--forest)]">Planting</h3><p class="mt-3 text-slate-700">Dig a generous hole, amend appropriately with sand where needed, add bone meal, create a berm, and finish with mulch away from the trunk.</p></article>
+          <article class="card-hover rounded-2xl bg-white p-6 border border-black/5"><div class="text-4xl">💧</div><h3 class="mt-3 brand-serif text-2xl text-[var(--forest)]">Watering</h3><p class="mt-3 text-slate-700">Deep watering builds stronger roots. Summer schedules are typically more frequent than winter programs.</p></article>
+          <article class="card-hover rounded-2xl bg-white p-6 border border-black/5"><div class="text-4xl">🌿</div><h3 class="mt-3 brand-serif text-2xl text-[var(--forest)]">Fertilizing</h3><p class="mt-3 text-slate-700">Use palm-safe granular feeds and trace minerals for vibrant growth, strong color, and long-term health.</p></article>
         </div>
-        <div id="species-grid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          <article class="species-card reveal-item rounded-3xl p-6 bg-white border border-black/5" data-type="palms"><div class="h-24 rounded-2xl bg-gradient-to-br from-[#1a3a2a] to-[#3b6c53] mb-5"></div><h3 class="font-display text-2xl text-[#1a3a2a]">Queen Palm</h3><p class="italic text-sm text-gray-500">Syagrus romanzoffiana</p><p class="mt-3 text-gray-700">Fast-growing tropical favorite for shade &amp; screening.</p></article>
-          <article class="species-card reveal-item rounded-3xl p-6 bg-white border border-black/5" data-type="palms"><div class="h-24 rounded-2xl bg-gradient-to-br from-[#6a8b6a] to-[#d7c08a] mb-5"></div><h3 class="font-display text-2xl text-[#1a3a2a]">Pygmy Date Palm</h3><p class="italic text-sm text-gray-500">Phoenix roebelenii</p><p class="mt-3 text-gray-700">Elegant small accent palm, perfect for any landscape.</p></article>
-          <article class="species-card reveal-item rounded-3xl p-6 bg-white border border-black/5" data-type="palms"><div class="h-24 rounded-2xl bg-gradient-to-br from-[#2f4f3d] to-[#c9a84c] mb-5"></div><h3 class="font-display text-2xl text-[#1a3a2a]">Pineapple Palm</h3><p class="italic text-sm text-gray-500">Phoenix canariensis</p><p class="mt-3 text-gray-700">Iconic wide-spreading specimen for dramatic statements.</p></article>
-          <article class="species-card reveal-item rounded-3xl p-6 bg-white border border-black/5" data-type="palms"><div class="h-24 rounded-2xl bg-gradient-to-br from-[#8f9f7a] to-[#44604e] mb-5"></div><h3 class="font-display text-2xl text-[#1a3a2a]">Mediterranean Fan Palm</h3><p class="italic text-sm text-gray-500">Chamaerops humilis</p><p class="mt-3 text-gray-700">Cold-hardy multi-trunk fan, slow and stately.</p></article>
-          <article class="species-card reveal-item rounded-3xl p-6 bg-white border border-black/5" data-type="palms"><div class="h-24 rounded-2xl bg-gradient-to-br from-[#cfd7de] to-[#6d7d86] mb-5"></div><h3 class="font-display text-2xl text-[#1a3a2a]">Bismarck Palm</h3><p class="italic text-sm text-gray-500">Bismarckia nobilis</p><p class="mt-3 text-gray-700">Dramatic silver-blue fan palm, fast and striking.</p></article>
-          <article class="species-card reveal-item rounded-3xl p-6 bg-white border border-black/5" data-type="palms cycads"><div class="h-24 rounded-2xl bg-gradient-to-br from-[#325243] to-[#c9a84c] mb-5"></div><h3 class="font-display text-2xl text-[#1a3a2a]">Foxtail Palm</h3><p class="italic text-sm text-gray-500">Wodyetia bifurcata</p><p class="mt-3 text-gray-700">Lush tropical plumage, the crown jewel of any garden.</p></article>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ============================================================================ -->
-    <!-- CARE PREVIEW SECTION: Practical tips with CTA and warning highlights       -->
-    <!-- ============================================================================ -->
-    <section id="care" data-section="care" class="section-reveal bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
-        <h2 class="font-display text-4xl sm:text-5xl text-[#1a3a2a]">Palm Care Preview</h2>
-        <div class="mt-8 grid md:grid-cols-3 gap-5">
-          <div class="reveal-item rounded-3xl p-6 bg-[#f7f5ef] border-l-4 border-[#c9a84c]">🌱<h3 class="font-display text-2xl text-[#1a3a2a] mt-3">Planting</h3><p class="mt-2 text-gray-700">Dig wide, keep the crown high, and water to settle the root ball.</p></div>
-          <div class="reveal-item rounded-3xl p-6 bg-[#f7f5ef] border-l-4 border-[#c9a84c]">💧<h3 class="font-display text-2xl text-[#1a3a2a] mt-3">Watering</h3><p class="mt-2 text-gray-700">Deep, infrequent irrigation builds stronger roots in desert conditions.</p></div>
-          <div class="reveal-item rounded-3xl p-6 bg-[#f7f5ef] border-l-4 border-[#c9a84c]">🧪<h3 class="font-display text-2xl text-[#1a3a2a] mt-3">Fertilizing</h3><p class="mt-2 text-gray-700">Use a palm-safe blend with micronutrients to prevent deficiencies.</p></div>
-        </div>
-        <div class="mt-8 rounded-3xl bg-[#1a3a2a] text-white p-8">
-          <h3 class="font-display text-3xl">Queen Palm Frizzle Top Watch</h3>
-          <p class="mt-3 text-white/85 max-w-3xl">Yellowing new fronds and twisted growth can signal manganese deficiency. Choose the right fertilizer, avoid overwatering, and call us for guidance if you suspect stress.</p>
-          <a href="#species" class="inline-flex mt-6 rounded-full bg-[#c9a84c] px-6 py-3 font-bold text-[#1a3a2a]">Read Full Care Guide →</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================================ -->
-    <!-- TESTIMONIALS SECTION: Dark green background with auto-rotating quotes      -->
-    <!-- ============================================================================ -->
-    <section id="testimonials" data-section="testimonials" class="section-reveal bg-[#1a3a2a] text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
-        <h2 class="font-display text-4xl sm:text-5xl">Trusted by Landscape Professionals</h2>
-        <div id="testimonial-carousel" class="mt-8 grid lg:grid-cols-2 gap-5">
-          <blockquote class="testimonial-card rounded-3xl bg-white/8 border border-white/10 p-8">
-            <div class="quote-mark text-6xl">“</div><p class="mt-2 text-lg leading-8">Best palm trees and Cycads around, always a pleasure to do business with as well. Thanks for all your help!</p><div class="mt-4 text-[#c9a84c]">★★★★★</div><footer class="mt-3 font-bold text-white/80">Jose Ochoa</footer>
-          </blockquote>
-          <blockquote class="testimonial-card rounded-3xl bg-white/8 border border-white/10 p-8">
-            <div class="quote-mark text-6xl">“</div><p class="mt-2 text-lg leading-8">Pacific Palms always has the healthiest, biggest palm trees for my money. I will always use them for my landscape jobs.</p><div class="mt-4 text-[#c9a84c]">★★★★★</div><footer class="mt-3 font-bold text-white/80">Betsy Johnson</footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================================ -->
-    <!-- LOCATION SECTION: Address, hours, and contact details                      -->
-    <!-- ============================================================================ -->
-    <section id="location" data-section="location" class="section-reveal bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
-        <div class="grid lg:grid-cols-2 gap-6">
-          <div class="rounded-3xl p-8 bg-[#f7f5ef] border border-black/5">
-            <h2 class="font-display text-3xl text-[#1a3a2a]">Visit the Nursery</h2>
-            <p class="mt-4 text-gray-700">1740 West Briles Road<br>Phoenix, AZ 85085</p>
-            <div class="mt-6">
-              <a href="tel:6235806933" class="block font-bold text-[#1a3a2a]">623-580-6933</a>
-              <a href="mailto:pacificpalmsaz@yahoo.com" class="block mt-2 font-bold text-[#1a3a2a]">pacificpalmsaz@yahoo.com</a>
-            </div>
-          </div>
-          <div class="rounded-3xl p-8 bg-[#1a3a2a] text-white">
-            <h3 class="font-display text-3xl">Hours</h3>
-            <p class="mt-4 text-white/85">Mon–Fri<br>7:00am–3:30pm</p>
+      <!-- TESTIMONIALS -->
+      <section class="section-hidden bg-[var(--forest)] text-white px-4 py-16 md:px-6 lg:px-8" data-section="testimonials">
+        <div class="max-w-7xl mx-auto">
+          <h2 class="brand-serif text-3xl md:text-5xl text-center">Trusted by Landscape Professionals</h2>
+          <div class="mt-12 grid md:grid-cols-2 gap-6">
+            <blockquote class="rounded-2xl bg-white/5 p-7 border border-white/10"><div class="text-[var(--gold)] text-4xl leading-none">“</div><div class="flex gap-1 text-[var(--gold)]">★★★★★</div><p class="mt-4 text-lg leading-8">Best palm trees and Cycads around, always a pleasure to do business with as well. Thanks for all your help!</p><footer class="mt-4 text-white/80 font-bold">Jose Ochoa</footer></blockquote>
+            <blockquote class="rounded-2xl bg-white/5 p-7 border border-white/10"><div class="text-[var(--gold)] text-4xl leading-none">“</div><div class="flex gap-1 text-[var(--gold)]">★★★★★</div><p class="mt-4 text-lg leading-8">Pacific Palms always has the healthiest, biggest palm trees for my money. I will always use them for my landscape jobs.</p><footer class="mt-4 text-white/80 font-bold">Betsy Johnson</footer></blockquote>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ============================================================================ -->
-    <!-- CONTACT SECTION: Accessible form with focus glow and polished CTA         -->
-    <!-- ============================================================================ -->
-    <section id="contact" data-section="contact" class="section-reveal bg-[#f7f5ef]">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
+      <!-- LOCATION + HOURS -->
+      <section class="section-hidden px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto" data-section="location">
         <div class="grid lg:grid-cols-2 gap-8">
-          <div>
-            <h2 class="font-display text-4xl sm:text-5xl text-[#1a3a2a]">Request Pricing or Availability</h2>
-            <p class="mt-4 text-gray-700 max-w-2xl">Tell us what you’re looking for and we’ll help match the right palms, cycads, or desert plants to your project.</p>
-          </div>
-          <form class="contact-form rounded-3xl bg-white p-8 shadow-xl border border-black/5" onsubmit="return false;">
-            <div class="grid sm:grid-cols-2 gap-4">
-              <input class="focus-glow w-full rounded-2xl border border-black/10 px-4 py-3" placeholder="Name" />
-              <input class="focus-glow w-full rounded-2xl border border-black/10 px-4 py-3" placeholder="Email" type="email" />
-              <input class="focus-glow w-full rounded-2xl border border-black/10 px-4 py-3 sm:col-span-2" placeholder="Phone" />
-              <textarea class="focus-glow w-full rounded-2xl border border-black/10 px-4 py-3 sm:col-span-2 min-h-36" placeholder="Message"></textarea>
+          <div class="rounded-3xl bg-white p-8 border border-black/5">
+            <h2 class="brand-serif text-3xl md:text-4xl text-[var(--forest)]">Location &amp; Hours</h2>
+            <div class="mt-6 space-y-4 text-slate-700 text-lg">
+              <p><strong>Address:</strong> 1740 West Briles Road, Phoenix, AZ 85085</p>
+              <p><strong>Hours:</strong> Mon–Fri 7:00am–3:30pm</p>
+              <p><strong>Phone:</strong> <a class="text-[var(--forest)] font-bold" href="tel:6235806933">623-580-6933</a></p>
+              <p><strong>Email:</strong> <a class="text-[var(--forest)] font-bold" href="mailto:pacificpalmsaz@yahoo.com">pacificpalmsaz@yahoo.com</a></p>
             </div>
-            <button class="mt-5 w-full rounded-full bg-[#c9a84c] px-6 py-4 font-bold text-[#1a3a2a] gold-glow">Send Inquiry</button>
+          </div>
+          <div class="rounded-3xl overflow-hidden min-h-[320px] border border-black/5 shadow-lg">
+            <iframe title="Map to Pacific Palms Nursery" class="w-full h-full min-h-[320px]" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=1740%20West%20Briles%20Road,%20Phoenix,%20AZ%2085085&output=embed"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT FORM -->
+      <section id="contact" class="section-hidden px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto" data-section="contact">
+        <div class="grid lg:grid-cols-2 gap-10 items-start">
+          <div>
+            <h2 class="brand-serif text-3xl md:text-5xl text-[var(--forest)]">Contact Us</h2>
+            <p class="mt-4 text-lg text-slate-700">Tell us about your project, the palm species you're seeking, or the size of the lot you're planning. We typically respond within 1 business day.</p>
+          </div>
+          <form id="contactForm" class="contact-form rounded-3xl bg-white p-6 md:p-8 border border-black/5 shadow-sm">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <label class="block"><span class="text-sm font-bold text-slate-700">Name</span><input name="full_name" class="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]" type="text" required></label>
+              <label class="block"><span class="text-sm font-bold text-slate-700">Email</span><input name="email" class="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]" type="email" required></label>
+            </div>
+            <div class="mt-4 grid sm:grid-cols-2 gap-4">
+              <label class="block"><span class="text-sm font-bold text-slate-700">Phone</span><input name="phone" class="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]" type="tel"></label>
+              <label class="block"><span class="text-sm font-bold text-slate-700">How can we help?</span><input name="custom_field" class="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]" type="text" placeholder="Palm sizes, delivery, availability"></label>
+            </div>
+            <label class="block mt-4"><span class="text-sm font-bold text-slate-700">Message</span><textarea name="message" rows="5" class="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]" required></textarea></label>
+            <button class="mt-5 w-full rounded-full bg-[var(--gold)] px-6 py-4 font-extrabold text-[var(--forest)] hover:brightness-105 transition" type="submit">Send Message</button>
+            <p class="mt-3 text-sm text-slate-500">We typically respond within 1 business day.</p>
           </form>
         </div>
-      </div>
+      </section>
     </section>
 
     <!-- ============================================================================ -->
-    <!-- SPECIES DETAIL PAGE: Hash-routed long-form care and inventory sections     -->
+    <!-- PALM CARE PAGE VIEW: Detailed growing guide, callouts, warnings, FAQ style  -->
     <!-- ============================================================================ -->
-    <section id="species-page" data-section="species-page" class="hidden-page bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-20">
-        <h2 class="font-display text-4xl text-[#1a3a2a]">Species List</h2>
-        <p class="mt-3 text-gray-700">Filter by palm or cycad and call to confirm current availability.</p>
-      </div>
+    <section id="care" data-section="care" class="page-view hidden">
+      <section class="px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h1 class="brand-serif text-4xl md:text-6xl text-[var(--forest)]">Palm Care Guide</h1>
+        <div class="mt-8 grid lg:grid-cols-3 gap-6">
+          <article class="rounded-2xl bg-white p-6 border-l-4 border-[var(--gold)] shadow-sm"><h2 class="brand-serif text-2xl text-[var(--forest)]">Planting</h2><p class="mt-3 text-slate-700 leading-7">Dig a hole at least twice the width of the root ball and only as deep as needed for proper crown height. In sandy sites, blend in quality backfill thoughtfully, add bone meal where appropriate, mound a berm to direct irrigation, and mulch to retain moisture while keeping mulch away from the trunk.</p></article>
+          <article class="rounded-2xl bg-white p-6 border-l-4 border-[var(--gold)] shadow-sm"><h2 class="brand-serif text-2xl text-[var(--forest)]">Watering</h2><p class="mt-3 text-slate-700 leading-7">Water deeply so roots grow downward and outward. A common rhythm is about three times per week in the summer and about twice per week in the winter, with adjustments for soil type, heat, wind, and plant size.</p></article>
+          <article class="rounded-2xl bg-white p-6 border-l-4 border-[var(--gold)] shadow-sm"><h2 class="brand-serif text-2xl text-[var(--forest)]">Fertilizing</h2><p class="mt-3 text-slate-700 leading-7">Use a palm-specific granular fertilizer, fertilizer spikes when suitable, and trace minerals to support strong color and healthy fronds. Feeding should be consistent but never excessive.</p></article>
+        </div>
+        <div class="mt-8 grid lg:grid-cols-2 gap-6">
+          <div class="rounded-2xl bg-emerald-50 p-6 border border-emerald-100"><h3 class="brand-serif text-2xl text-[var(--forest)]">Queen Palm Care</h3><p class="mt-3 text-slate-700 leading-7">Queen palms benefit from balanced watering, sufficient potassium and manganese, and well-drained soil. Watch for frizzle top, a nutrient deficiency that can appear as distorted fronds. If soil pH is too alkaline, a soil program may be recommended, and in certain treatments professionals may use muriatic acid carefully and only with proper guidance.</p></div>
+          <div class="rounded-2xl bg-amber-50 p-6 border border-amber-100"><h3 class="brand-serif text-2xl text-[var(--forest)]">Warning</h3><p class="mt-3 text-slate-700 leading-7">Avoid overwatering, compacted planting holes, and trunk damage from string trimmers or mulch piled too high. When in doubt, confirm plant-specific needs before making changes to your irrigation schedule.</p></div>
+        </div>
+        <div class="mt-8 rounded-2xl bg-white p-6 border border-black/5">
+          <h3 class="brand-serif text-2xl text-[var(--forest)]">Best Practices Summary</h3>
+          <div class="mt-4 grid md:grid-cols-3 gap-4 text-slate-700">
+            <div><strong class="text-[var(--forest)]">1.</strong> Choose the right location for sun, drainage, and mature spread.</div>
+            <div><strong class="text-[var(--forest)]">2.</strong> Water deeply and adjust by season, size, and soil.</div>
+            <div><strong class="text-[var(--forest)]">3.</strong> Feed with palm-safe fertilizer and monitor for deficiencies.</div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- SPECIES PAGE VIEW: Full inventory with filters, availability badges         -->
+    <!-- ============================================================================ -->
+    <section id="species" data-section="species" class="page-view hidden">
+      <section class="px-4 py-16 md:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="flex flex-col gap-4">
+          <h1 class="brand-serif text-4xl md:text-6xl text-[var(--forest)]">Species List</h1>
+          <p class="text-lg text-slate-700">Call to confirm availability: <a href="tel:6235806933" class="font-bold text-[var(--forest)]">623-580-6933</a></p>
+          <div class="flex flex-wrap gap-3 mt-2">
+            <button class="filter-tab rounded-full bg-[var(--forest)] text-white px-5 py-2 font-bold" data-filter="all">All</button>
+            <button class="filter-tab rounded-full bg-white border border-slate-300 px-5 py-2 font-bold text-slate-700" data-filter="palms">Palms</button>
+            <button class="filter-tab rounded-full bg-white border border-slate-300 px-5 py-2 font-bold text-slate-700" data-filter="cycads">Cycads</button>
+          </div>
+        </div>
+
+        <div class="species-grid mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Mule Palm</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Queen Palm</h3><p class="italic text-slate-500">Syagrus romanzoffiana</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Pygmy Date Palm</h3><p class="italic text-slate-500">Phoenix roebelenii</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Pineapple Palm</h3><p class="italic text-slate-500">Phoenix canariensis</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Mediterranean Fan Palm</h3><p class="italic text-slate-500">Chamaerops humilis</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Silver Mediterranean Fan Palm</h3><p class="italic text-slate-500">Chamaerops humilis var. Cerifera</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Pindo Palm</h3><p class="italic text-slate-500">Butia capitata</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Mexican Blue Fan</h3><p class="italic text-slate-500">Brahea armata</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Sabal Palm</h3><p class="italic text-slate-500">Sabal causarium</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Triangle Palm</h3><p class="italic text-slate-500">Dypsis decaryi</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Sugar Palm</h3><p class="italic text-slate-500">Arenga englerii</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Chinese Fan Palm</h3><p class="italic text-slate-500">Livistona chinensis</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Bismarck Palm</h3><p class="italic text-slate-500">Bismarckia nobilis</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Saw Palmetto</h3><p class="italic text-slate-500">Serenoa repens</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Senegal Date Palm</h3><p class="italic text-slate-500">Phoenix reclinata</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Dwarf Fishtail Palm</h3><p class="italic text-slate-500">Chamaedorea metallica</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Lady Palm</h3><p class="italic text-slate-500">Rhapis excelsa</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Foxtail Palm</h3><p class="italic text-slate-500">Wodyetia bifurcata</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Guadalupe Palm</h3><p class="italic text-slate-500">Brahea edulis</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Silver Key Thatch Palm</h3><p class="italic text-slate-500">Thrinax morrisii</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="palms"><h3 class="brand-serif text-2xl text-[var(--forest)]">Cuban Royal Palm</h3><p class="italic text-slate-500">Roystonea sp.</p></div>
+          <div class="species-item rounded-2xl bg-slate-50 p-5 border border-black/5" data-type="palms"><div class="flex items-center justify-between gap-2"><h3 class="brand-serif text-2xl text-slate-500">Licury Palm</h3><span class="rounded-full bg-slate-300 px-3 py-1 text-xs font-black uppercase text-slate-700">Out of Stock</span></div></div>
+          <div class="species-item rounded-2xl bg-slate-50 p-5 border border-black/5" data-type="palms"><div class="flex items-center justify-between gap-2"><h3 class="brand-serif text-2xl text-slate-500">Spiny Fiber Palm</h3><span class="rounded-full bg-slate-300 px-3 py-1 text-xs font-black uppercase text-slate-700">Out of Stock</span></div></div>
+          <div class="species-item rounded-2xl bg-slate-50 p-5 border border-black/5" data-type="palms"><div class="flex items-center justify-between gap-2"><h3 class="brand-serif text-2xl text-slate-500">Chilean Wine Palm</h3><span class="rounded-full bg-slate-300 px-3 py-1 text-xs font-black uppercase text-slate-700">Out of Stock</span></div></div>
+          <div class="species-item rounded-2xl bg-slate-50 p-5 border border-black/5" data-type="palms"><div class="flex items-center justify-between gap-2"><h3 class="brand-serif text-2xl text-slate-500">Doum Palm</h3><span class="rounded-full bg-slate-300 px-3 py-1 text-xs font-black uppercase text-slate-700">Out of Stock</span></div></div>
+
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Cardboard Palm</h3><p class="italic text-slate-500">Zamia furfuracea</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Sago Palm</h3><p class="italic text-slate-500">Cycas revoluta</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Queen Sago</h3><p class="italic text-slate-500">Cycas rumphii</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Prince Sago</h3><p class="italic text-slate-500">Cycas taiwaniana</p></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Dioon Edule</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Dioon Spinulosum</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Dioon Mejiae</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Ceratozamia Mexicana</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Ceratozamia Latifolia</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Macrozamia Mooreii</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Cycas Taitungensis</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Cycas Cairnsiana</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Encephalartos Lehmanii</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Encephalartos Trispinosus</h3></div>
+          <div class="species-item rounded-2xl bg-white p-5 border border-black/5" data-type="cycads"><h3 class="brand-serif text-2xl text-[var(--forest)]">Encephalartos Arenarius</h3></div>
+        </div>
+      </section>
     </section>
   </main>
 
-  <button id="floating-call" class="floating-call fixed bottom-5 right-5 z-50 rounded-full bg-[#c9a84c] px-5 py-4 font-bold text-[#1a3a2a] shadow-2xl">📞 Call Now</button>
+  <!-- FOOTER -->
+  <footer class="bg-[var(--forest)] text-white">
+    <div class="max-w-7xl mx-auto px-4 py-12 md:px-6 lg:px-8 grid md:grid-cols-3 gap-10 items-start">
+      <div class="flex items-center gap-3">
+        <svg width="42" height="42" viewBox="0 0 42 42" aria-hidden="true">
+          <path d="M21 4c2 6-1 11-6 15 4-1 8-4 11-8 1 6-1 11-5 15 5-1 10-4 14-9-1 8-5 14-12 18-3 2-7 3-12 3 4-3 7-7 9-12-6 2-11 2-16 1 6-2 10-6 13-11-5 2-9 2-13 1 5-2 9-5 12-8 1-1 2-3 5-5Z" fill="#c9a84c"/>
+          <rect x="19" y="18" width="4" height="19" rx="2" fill="#c9a84c"/>
+        </svg>
+        <div>
+          <div class="brand-serif text-lg tracking-[0.2em] uppercase">Pacific Palms</div>
+          <div class="text-xs tracking-[0.35em] uppercase text-white/80">Nursery</div>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-black uppercase tracking-[0.25em] text-sm text-[var(--gold)]">Quick Links</h2>
+        <div class="mt-4 flex flex-col gap-2 text-white/85">
+          <a href="#home">Home</a>
+          <a href="#care">Palm Care</a>
+          <a href="#species">Species</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-black uppercase tracking-[0.25em] text-sm text-[var(--gold)]">Contact</h2>
+        <div class="mt-4 space-y-2 text-white/85">
+          <p>1740 West Briles Road, Phoenix, AZ 85085</p>
+          <p>623-580-6933</p>
+          <p>pacificpalmsaz@yahoo.com</p>
+          <p>Mon–Fri 7:00am–3:30pm</p>
+          <p>© 2024 Pacific Palms Nursery · Se Habla Español</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-  <div id="lightbox" class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/85 p-4">
-    <button id="lightbox-close" class="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/10 text-white border border-white/20">✕</button>
-    <img id="lightbox-img" src="" alt="" class="max-h-[85vh] max-w-[95vw] rounded-2xl shadow-2xl object-contain">
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox fixed inset-0 z-[60] items-center justify-center bg-black/90 p-4">
+    <button id="closeLightbox" class="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/10 text-white text-2xl" aria-label="Close lightbox">×</button>
+    <button id="lightPrev" class="absolute left-4 md:left-8 w-11 h-11 rounded-full bg-white/10 text-white text-2xl" aria-label="Previous image">‹</button>
+    <img id="lightboxImg" alt="" class="max-h-[85vh] max-w-[92vw] rounded-xl shadow-2xl object-contain">
+    <button id="lightNext" class="absolute right-4 md:right-8 w-11 h-11 rounded-full bg-white/10 text-white text-2xl" aria-label="Next image">›</button>
   </div>
+
+  <!-- FLOATING CALL BUTTON -->
+  <a href="tel:6235806933" id="floatingCall" class="floating-call fixed right-4 bottom-4 z-[55] rounded-full bg-[var(--gold)] px-5 py-4 font-black text-[var(--forest)] shadow-xl">📞 Call Now</a>
 
   
   <script src="script.js"></script>
